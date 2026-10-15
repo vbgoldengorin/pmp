@@ -27,11 +27,6 @@ All MIPs and LPs are solved with [HiGHS](https://highs.dev) through SciPy.
 | File | Content |
 |---|---|
 | `pmed_tolerance.py` | Instance reader, p-median MIP oracle, Algorithm 1 (cutting planes), Algorithm 2 (column generation) |
-| `run_experiments.py` | Runs the experiments and writes `results/results.json` |
-| `make_tables.py` | Produces the LaTeX tables of the paper (`results/tables.tex`) from `results/results.json` |
-| `results/` | Results and tables as reported in the paper |
-| `data/` | Place the instance files here (see below) |
-
 ## Data
 
 The instances `pmed1.txt`–`pmed5.txt` are from J. E. Beasley's OR-Library:
